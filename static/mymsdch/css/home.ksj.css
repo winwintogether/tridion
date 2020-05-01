@@ -1,0 +1,439 @@
+
+*{
+	box-sizing: border-box;
+}
+.middle-container {
+	max-width: 1300px !important;
+	width:98%;
+	margin: 0 auto  !important;
+	float: none !important;
+	display: flex;
+	flex-wrap: wrap;
+}
+.active-ul {
+	display: block;
+}
+.middle-nav {
+	width:100%;
+}
+.middle-nav ul {
+	padding-left: 0 !important;
+	padding-top:  0 !important;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.middle-nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	background: none;
+	color: #ffffff;
+	font-family: "Arial Narrow" !important;
+	font-size: 16px !important;
+	font-weight: 700;
+	padding: 16.5px 27px !important;
+	width: auto !important;
+}
+.middle-nav ul li:hover {
+	cursor: pointer;
+	color: #333333;
+	background: #ffffff;
+}
+.middle-nav ul li:before {
+	display: none !important;
+}
+.slider_img_web:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.bg-gray {
+	background: #37424A;
+}
+.center-container {
+	width: 98%;
+	margin: 0 auto;
+	max-width: 1080px;
+	float: none !important;
+}
+.center-container .head-label p {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 50.4px;
+	color: #159696;
+	padding-top: 66px;
+	padding-bottom: 36px;
+	font-family:sans-serif !important;
+	text-align: center;
+}
+.head-label, .head-label-black {
+	float: none !important;
+}
+.center-container .content-text p {
+	font-weight: 400;
+	line-height: 36.6px;
+	font-size: 24px;
+	color: #555555;
+	font-family:sans-serif !important;
+	text-align: center;
+	text-overflow: word-break;
+	padding-bottom: 0px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.gallery-box {
+	width: 100%;
+	display: flex;
+	margin-bottom: 19px;
+	align-items: center;
+}
+.image-box {
+	width: 250px;
+	flex-shrink: 0;
+}
+.image-box img {
+	width: 100%;
+	height: auto;
+}
+.gallery-box .gallery-content {
+	max-width: 100%;
+	padding-left: 26px;
+	margin: 0;
+	
+}
+.Rheumatologie, .Gastroenterologie {
+	width: 48.46%;
+}
+.gallery-box .gallery-content .head-label p  {
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 50.4px;
+}
+.gallery-box .gallery-content .body-text p {
+	padding-top: 20px;
+	color: #555555;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25.2px;
+	font-family: sans-serif;
+	text-overflow: word-break;
+}
+.blue-background-panel {
+	background-image: url("../images/immunology_bubble1.png"),url("../images/immunology_bubble2.png"),url("../images/immunology_bubble3.png"),
+	url("../images/immunology_ff.png");
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 100% 0%, 100% 50%, 100% 100%, 35% 15%;
+	background-color: #159696;
+	padding-top: 90px;
+	padding-bottom: 58px;
+	margin-top: 91px;
+}
+.blue-background-panel .middle-container .gallery-content p {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35.6px;
+	color: #ffffff;
+	padding-bottom: 36px;
+}
+.blue-background-panel .middle-container .gallery-content .info {
+	font-size: 18px !important;
+	padding-bottom: 0 !important;
+	line-height: 25.2px;
+}
+.blue-background-panel .middle-container .gallery-content {
+	padding-left: 80px;
+}
+.head-label-black p {
+	padding: 0px;
+	text-align: center;
+	margin-top: 110px;
+	margin-bottom: 31px;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 39.2px;
+	font-family: sans-serif;
+	color: #333333;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 64px;
+}
+.card-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 47.99%;
+	border-radius: 10px;
+	border:2px solid #f4f5f5;
+	background: white;
+	padding: 38px 40px 39px 40px;
+	font-family: sans-serif;
+	color: #333333;
+	margin: 0;
+	margin-top: 58px;
+}
+.card-logo-left img {
+	margin:20px 0;
+}
+.card-logo-right img {
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.card-content {
+	padding-bottom: 36px;
+	padding-left: 10px;
+}
+.card-label p {
+	font-family: sans-serif;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 33.6px;
+	padding-bottom: 20px;
+}
+.card-body {
+	margin: 0;
+	width: 100%;
+
+}
+.card-body p {
+	font-size: 18px;
+	font-weight: 700px;
+	line-height: 25.2px;
+	font-family: sans-serif;
+	text-overflow: word-break;
+}
+.card-button {
+	border-radius: 50px;
+	border:none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 19.6px;
+	background: #159696;
+	width: 100%;
+	text-transform: uppercase;
+	height: 60px;
+	cursor: pointer;
+}
+.gray-panel {
+	background:url("../images/immunology_gray-panel.png");
+	background-position: 0% 100%;
+	width: 100%;
+	background-repeat: repeat-x;
+}
+.CH-gol {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.CH-gol p {
+	padding-bottom: 79px;
+	padding-top: 40px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22.4px;
+	text-transform: uppercase;
+}
+.reference {
+
+	width: 100%;
+}
+.reference p {
+	font-family: sans-serif;
+	font-style: oblique !important;
+	font-size: 18px;
+	min-width: 0px;
+}
+
+.reference .head-label p i{
+	color: #6b7681;
+	font-size: 24px;
+	line-height: 33.6px;
+	font-weight: 700;
+	font-family: sans-serif !important;
+}
+.reference-PS {
+	margin-top: 7px;
+	margin-bottom: 70px;
+}
+.reference-PS p:nth-child(2) {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.reference-PS p:nth-child(3) {
+	padding-bottom: 25px;
+}
+.reference-list ol {
+	padding-left: 20px;
+	max-width: 83%;
+}
+.reference-list ol li {
+	list-style-type: "1";
+	padding-bottom: 25px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.reference-list ol li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #159696;
+
+}
+.reference-list ol li a:hover {
+	text-decoration: underline;
+	color: #159696;
+}
+.reference-list ol li p {
+	padding-bottom: 0;
+	font-weight: 400;
+	word-break: break-all;
+	line-height: 26.8px
+}
+.avatar-box {
+	display: flex;
+}
+@media screen and (max-width: 1200px) {
+	.Rheumatologie, .Gastroenterologie {
+		min-width: 100% !important;
+	}
+	.middle-container {
+		flex-direction: column;
+	}
+	.gallery-content {
+		max-width: 100% !important;
+	}
+	.middle-container, .center-container {
+		padding-left: 25px !important;;
+		padding-right: 25px !important;;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.gray-panel {
+		background: none;
+	}
+	.avatar-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.gallery-content {
+		padding-left: 0px !important;
+	}
+	.Gastroenterologie .gallery-content {
+		padding-left: 10px !important;
+	}
+	.Rheumatologie .gallery-content {
+		padding-left: 10px !important;
+	}
+	.head-label p {
+		text-align: center;
+	}		
+	.cards {
+		flex-direction: column;
+		align-items: center;
+	}
+	.card-box {
+		width: 100%;
+	}
+	.image-box {
+		max-width: 220px;
+	}
+	.middle-nav {
+		margin-bottom: 5px;
+	}
+	.middle-nav ul {
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-left: -15px !important;
+		margin-right: -15px !important;
+		border-top: 1px solid gray;
+		
+	}
+	.middle-nav ul li {
+		max-width: 100%;
+		display: flex;
+		justify-content: center;
+		padding:10px !important;
+	}
+	.head-label p {
+		font-size: 24px !important;
+	}
+	.gallery-content p, .card-label p {
+		font-size: 22px !important;
+	}
+	.content-text p, .body-text p, .card-body p, .Reference p, .Reference-list ol li {
+		font-size: 16px !important;
+	}
+	.middle-nav ul li {
+		font-size: 14px !important;
+	}
+	.Reference-list ol {
+		max-width: 100%;
+	}
+
+	.head-label {
+		text-align: center;
+	}
+	.middle-nav ul {
+		display: none;
+	}
+	.hidden-menu  {
+		display: block !important;
+	}
+}
+@media screen and (max-width: 576px) {
+	.Rheumatologie {
+		margin-bottom: 50px;
+	}
+	.image-box {
+		max-width: 100%;
+	}
+	.body-text p {
+		padding-top: 0px !important;
+	}
+	.card-box{
+		padding: 15px;
+	}
+}
+@media screen and (max-width: 494px) {
+	.gallery-box {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.image-box {
+		margin-bottom: 30px;
+		width: 85%;
+	}
+	.card-box {
+		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.card-logo-left, .card-logo-right{
+		max-width: 130px;
+	}
+}
+.hidden-menu {
+	display: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.hidden-menu span {
+	width: 25px;
+	height: 3px;
+	display: block;
+	background: white;
+	margin:5px 5px;
+	cursor: pointer;
+}

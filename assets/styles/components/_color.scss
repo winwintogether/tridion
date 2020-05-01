@@ -1,0 +1,13 @@
+.msd-color {
+    &__green {
+        color: $green-100;
+    }
+
+    &__black {
+        color: $black-100;
+    }
+
+    &__light-black {
+        color: $black-200;
+    }
+}
